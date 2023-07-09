@@ -1,5 +1,6 @@
 ### summon dummy
 execute as @a[scores={origitem_click=1}] if data entity @s {SelectedItem:{tag:{originalitems:2}}} at @s run summon minecraft:armor_stand ~ ~ ~ {Invisible:true,Small:true,Marker:true,Tags:["swap_dummy"]}
+execute as @a[scores={origitem_click=1}] if data entity @s {SelectedItem:{tag:{originalitems:2}}} at @s run tp @e[type=minecraft:armor_stand,tag=swap_dummy,sort=nearest,limit=1] @s
 
 ### tp me to nearest player
 execute as @a[scores={origitem_click=1}] if data entity @s {SelectedItem:{tag:{originalitems:2}}} at @s run tp @s @p[gamemode=survival,distance=..30]
