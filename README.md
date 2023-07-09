@@ -23,7 +23,7 @@
 D  
 ```
 
-- スワップステッキ (A: teleportl stick, B: obsidian)
+- スワップステッキ (A: teleport stick, B: obsidian)
 ```
   B
 B A B
