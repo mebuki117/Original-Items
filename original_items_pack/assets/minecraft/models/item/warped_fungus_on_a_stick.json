@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/warped_fungus_on_a_stick"
+  },
+
+  "overrides": [
+    {"predicate": {"custom_model_data":1}, "model": "minecraft:item/tp_stick"},
+    {"predicate": {"custom_model_data":2}, "model": "minecraft:item/swap_stick"}
+  ]
+}
